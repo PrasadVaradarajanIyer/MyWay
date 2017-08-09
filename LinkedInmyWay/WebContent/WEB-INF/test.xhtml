@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en"
+    xmlns="http://www.w3.org/1999/xhtml"
+    xmlns:h="http://xmlns.jcp.org/jsf/html"
+    xmlns:ui="http://xmlns.jcp.org/jsf/facelets"
+    xmlns:f="http://xmlns.jcp.org/jsf/core">
+    
+    
+    <h:body>
+	 
+		<h:form>
+    Upload: <h:inputFile value="#{uploadImage.image}"></h:inputFile>
+			<h:commandButton value="Upload" action="#{uploadImage.doUpload()}" />
+			
+			</h:form>
+	
+	</h:body>
+	
+	</html>
